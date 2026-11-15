@@ -1,0 +1,18 @@
+###################################
+####4. MCP-Powered Database Analyst####
+#######################################
+
+MCP tools: inspect schema, execute read-only SQL, summarize results, generate reports.
+Integrations: PostgreSQL, CSV files, an LLM.
+Real use case: Business teams can query data without writing SQL.
+Demo: "Which products generated the highest revenue last quarter?"
+Splunk Observability Announces New Capabilities to Help You Build, Troubleshoot and Innovate Faster | Splunk
+ 
+ ##############################################
+###########5. AI DevOps Incident Investigation Agent######
+###############################################
+
+MCP tools: fetch logs, inspect service health, analyze error patterns, create incident reports.
+Integrations: Docker, Prometheus, Grafana, simulated log data.
+Real use case: Reduce incident investigation time.
+Demo: "Why did the payment service fail, and which errors appeared first?"
