@@ -1,5 +1,7 @@
 #HTTP
 from fastapi import FastAPI
+from fastapi_mcp import FastApiMCP
+
 
 #1 lets make a fastapi app(that means api)
 app=FastAPI(title="Calculator-api")
@@ -27,6 +29,11 @@ def add_numbers(a:float,b:float)->float:
     """
     result=a+b
     return {"result":result}
+
+#converting it to a MCP
+mcp=FastApiMCP(app,name="calculator_mcp")
+
+mcp.mount_http()
 
 if __name__=="__main__":
     import uvicorn
